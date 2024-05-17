@@ -1,0 +1,154 @@
+.about {
+    padding: 100px 80px;
+}
+.about .about-head {
+    display: flex;
+    justify-content: space-between;
+}
+.about .about-head .image {
+    width: 288px;
+}
+.about .about-head img {
+    width: inherit;
+}
+.about .about-head .text {
+    text-align: center;
+}
+.about .about-head .text p {
+    margin-top: 50px;
+    width: 589px;
+    color: #000c00;
+}
+.about .about-body .visions {
+    display: flex;
+    gap: 30px;
+    margin-top: 100px;
+    justify-content: center;
+}
+.about .about-body .visions .vision {
+    width: 605px;
+    padding: 60px 50px;
+    background: linear-gradient(0deg, rgba(0, 61, 40, 0.90) 0%, rgba(0, 61, 40, 0.90) 100%), url("../../images/career-1.png"), lightgray 0px -1.541px / 100% 134.36% no-repeat;
+}
+.about .about-body .visions .vision.mission {
+    background: linear-gradient(0deg, rgba(40, 0, 9, 0.90) 0%, rgba(40, 0, 9, 0.90) 100%), url("../../images/career-2.png"), lightgray 0px -1.541px / 100% 134.36% no-repeat;
+}
+.about .about-body .visions .vision h4 {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.about .about-body .visions .vision p {
+    width: 458px;
+    font: 18px;
+    color: #fff;
+    line-height: 1.5;
+}
+.about .about-body .team {
+    margin-top: 100px;
+}
+.about .about-body .team p {
+    font: 32px;
+    color: #000c00;
+    margin-top: 38px;
+}
+.about .about-body .team .images {
+    margin-top: 54px;
+}
+.about .about-body .team .images .first, .about .about-body .team .images .second {
+    display: flex;
+    gap: 30px;
+}
+.about .about-body .team .images .second {
+    margin-top: 60px;
+}
+.about .about-body .team .images .image {
+    width: 288px;
+    height: 385px;
+    padding: 44px 24px;
+    flex-shrink: 0;
+}
+.about .about-body .team .images .image div {
+    margin-top: 100%;
+}
+.about .about-body .team .images .image p {
+    color: #fff;
+    margin: 10px 0 0 0;
+}
+.about .about-body .team .images .image p:first-of-type {
+    font-size: 18px;
+}
+.about .about-body .team .images .image p:last-of-type {
+    font-size: 14px;
+}
+.companies h2 {
+    font-size: 32px;
+    font-weight: 400;
+}
+.companies .images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.companies .images img {
+    width: 100px;
+    height: 70px;
+    object-fit: contain;
+}
+.about .about-body .testimonial:last-of-type {
+    margin-top: -150px;
+}
+
+@media screen and (max-width: 600px) {
+    .about {
+        padding: 50px 20px;
+    }
+    .about .about-head {
+        flex-direction: column;
+        justify-content: center;
+        gap: 59px;
+    }
+    .about .about-head .image, .about .about-head .text p {
+        width: 100%;
+    }
+    .about .about-head .text p {
+        font-size: 18px;
+    }
+    .about .about-body .visions {
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .about .about-body .visions .vision {
+        width: 100%;
+        padding: 40px 20px;
+    }
+    .about .about-body .visions .vision h4 {
+        font-size: 18px;
+    }
+    .about .about-body .visions .vision p {
+        width: 280px;
+        font: 16px;
+    }
+    .about .about-body .team {
+        margin-top: 50px;
+    }
+    .about .about-body .team p {
+        margin-top: 20px;
+    }
+    .about .about-body .team .images .second, .about .about-body .team .images .first {
+        overflow-x: scroll;
+        justify-content: start;
+    }
+    .companies h2 {
+        font-size: 24px;
+    }
+    .companies .images {
+        gap: 50px;
+    }
+    .about .about-body .testimonial:last-of-type {
+        margin-top: -100px;
+    }
+}

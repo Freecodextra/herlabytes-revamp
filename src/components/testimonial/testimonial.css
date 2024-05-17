@@ -1,0 +1,148 @@
+.testimonial {
+    font-family: "Roobert-Regular";
+    background-color: #fff;
+    padding: 100px 80px;
+}
+.testimonial .testimonial-head h4 {
+    font-weight: 400;
+    font-size: 32px;
+    padding: 10px;
+    color: #000C00;
+    width: 700px;
+}
+.testimonial .testimonial-body {
+    padding: 40px;
+    border-left: 5px solid #009B66;
+    margin-top: 40px;
+}
+.testimonial .testimonial-body .testimony {
+    margin-bottom: 50px;
+    font-size: 24px;
+    padding-right: 200px;
+    line-height: 1.5;
+}
+.testimonial .testimonial-body .profile {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.testimonial .testimonial-body .profile .img {
+    width: 100px;
+    height: 100px;
+}
+.testimonial .testimonial-body .profile .img img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+.testimonial .testimonial-body .profile .txt p:first-of-type {
+    color: #000C00;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.testimonial .testimonial-body .profile .txt p:last-of-type {
+    color: rgba(0, 12, 0, 0.70);
+    font-weight: 400;
+}
+.testimonial .call-to-action {
+    width: 100%;
+    background-color: #F2FFFB;
+    padding: 80px 40px;
+    margin-top: 120px;
+    position: relative;
+    overflow: hidden;
+}
+.testimonial .call-to-action h2 {
+    font-size: 32px;
+    font-weight: 400;
+    width: 350px;
+}
+.testimonial .call-to-action p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 30px 0;
+    width: 530px;
+    color: rgba(0, 12, 0, 0.70);
+}
+.testimonial .call-to-action button {
+    background-color: #009B66;
+    padding: 15px 60px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: "Roobert-Regular";
+}
+.testimonial .call-to-action img {
+    position: absolute;
+}
+.testimonial .call-to-action img.call-1 {
+    top: 0;
+    right: 120px;
+}
+.testimonial .call-to-action img.call-2 {
+    bottom: 0;
+    right: 10px;
+}
+@media screen and (max-width: 600px) { 
+    .testimonial {
+        padding: 50px 10px;
+    }
+    .testimonial .testimonial-head h4 {
+        font-size: 24px;
+        width: auto;
+    }
+    .testimonial .testimonial-body {
+        padding: 20px;
+    }
+    .testimonial .testimonial-body .testimony {
+        padding: 0;
+        font-size: 18px;
+    }
+    .testimonial .testimonial-body .profile .img {
+        width: 88px;
+        height: 88px;
+    }
+    .testimonial .testimonial-body .profile .txt p:first-of-type {
+        font-size: 18px;
+    }
+    .testimonial .testimonial-body .profile .txt p:last-of-type {
+        font-size: 14px;
+    }
+    .testimonial .testimonial-footer {
+        margin-top: 20px;
+    }
+    .testimonial .call-to-action {
+        width: auto;
+        padding: 80px 20px;
+        height: auto;
+    }
+    .testimonial .call-to-action h2 {
+        font-size: 24px;
+        width: auto;
+    }
+    .testimonial .call-to-action p {
+        font-size: 16px;
+        width: auto;
+    }
+    .testimonial .call-to-action button {
+        padding: 15px 50px;
+    }
+    .testimonial .call-to-action img {
+        scale: .6;
+    }
+    .testimonial .call-to-action img.call-1 {
+        top: -20px;
+        right: -100px;
+        transform: rotate(45deg);
+        scale: .5;
+    }
+    .testimonial .call-to-action img.call-2 {
+        bottom: -20px;
+        right: -100px;
+        transform: rotate(-45deg);
+        scale: .5;
+    }
+}

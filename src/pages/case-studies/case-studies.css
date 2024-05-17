@@ -1,0 +1,10 @@
+.case .case-head p.case-text {
+    font-size: 36px;
+    width: 710px;
+}
+@media screen and (max-width: 600px) {
+    .case .case-head p.case-text {
+        font-size: 18px;
+        width: auto;
+    }
+}

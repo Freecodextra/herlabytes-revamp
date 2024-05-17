@@ -1,0 +1,51 @@
+.brands {
+    background-color: #000C00;
+    font-family: "Roobert-Regular";
+    text-align: center;
+    color: #fff;
+    padding: 40px 0;
+}
+.brands p {
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+
+.brands .brand-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+.brands .brand-logos .first, .brands .brand-logos .second {
+    display: flex;
+    gap: 120px;
+}
+/* .brands .brand-logos .second {
+    flex-direction: row-reverse;
+} */
+
+@media screen and (max-width: 600px) { 
+    .brands .brand-logos {
+        flex-wrap: wrap;
+        gap: 18px;
+        /* justify-content: flex-start; */
+        padding: 0 20px;
+    }
+    .brands .brand-logos .big {
+        scale: 1.2;
+    }
+    .brands .brand-logos img {
+        scale: .7;
+    }
+    .brands .brand-logos .first {
+        gap: 50px;
+        width: 100%;
+    }
+    .brands .brand-logos .second {
+        flex-direction: row-reverse;
+        gap: 60px;
+        width: 100%;
+        justify-content: end;
+        padding-right: 20px;
+    }
+}

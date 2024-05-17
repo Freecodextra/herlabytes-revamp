@@ -1,0 +1,181 @@
+.blog.page {
+    padding: 0;
+}
+.blog.page .blog-head {
+    background-color: #F2FFFB;
+    background-image: url("../../images/blog-background.png");
+    background-position-y: bottom;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    padding: 100px 80px 0 80px;
+}
+.blog .blog-head h4.head {
+    font-size: 36px;
+    width: 650px;
+}
+.blog .blog-head p.blog-text {
+    font-size: 18px;
+    width: 710px;
+    margin-bottom: 20px;
+}
+.blog.page .blog-body {
+    padding: 100px 0;
+    margin-bottom: 0;
+}
+.blog .blog-head ul {
+    display: flex;
+    gap: 40px;
+    margin-top: 70px;
+}
+.blog .blog-head ul li {
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.blog .blog-head ul li.active {
+    border-bottom: 3px solid #009B66;
+}
+.blog.page .testimonial {
+    margin: -100px 80px 100px 80px;
+}
+.blog.page .testimonial div {
+    width: 100%;
+}
+
+.podcast {
+    padding: 100px 80px;
+}
+.podcast .podcast-head h4 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000c00;
+    margin-bottom: 20px;
+}
+.podcast .podcast-head p {
+    font-size: 14px;
+    width: 580px;
+    line-height: 1.5;
+}
+.podcast .podcast-body {
+    width: 100%;
+}
+.podcast .podcast-menu {
+    width: 300px;
+    height: 120px;
+    border-radius: 10px;
+    background: hsla(159, 100%, 30%, 0.1);
+    padding: 30px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 50px;
+}
+.podcast .podcast-menu span {
+    color: #000c00;
+}
+.podcast .podcast-menu p {
+    color: rgba(0, 12, 0, 0.70);
+}
+.podcast .podcast-listen {
+    width: 100%;
+    height: 350px;
+    padding: 28px 50px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 12, 0, 0.25);
+    margin-top: 100px;
+}
+.podcast .podcast-listen .image {
+    width: 340px;
+    height: 290px;
+}
+.podcast .podcast-listen .image img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+.podcast .podcast-listen .text h2 {
+    font-size: 32px;
+    font-weight: 400;
+}
+.podcast .podcast-listen .text p {
+    margin-top: 20px;
+}
+.podcast .podcast-listen .line {
+    background: rgba(0, 12, 0, 0.15);
+    width: 100%;
+    height: 1px;
+    margin-top: 60px;
+}
+.podcast .podcast-listen .play {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 25px;
+}
+.podcast .podcast-listen .play span {
+    color: #009B66;
+    font-size: 18px;
+    text-decoration-line: underline;
+}
+
+@media screen and (max-width: 600px) {
+    .blog.page .blog-head {
+        padding: 50px 20px 0 20px;
+        background-image: url("../../images/blog-background-2.png");
+    }
+    .blog .blog-head p.blog-text {
+        font-size: 14px;
+        width: auto;
+    }
+    .blog .blog-head h4.head {
+        font-size: 24px;
+        width: 280px;
+    }
+    .blog .blog-head ul li {
+        font-size: 16px;
+    }
+    .blog.page .blog-body {
+        padding: 50px 20px;
+    }
+    .blog.page .testimonial {
+        margin: -120px 20px 50px 20px;
+    }
+    .podcast {
+    padding: 50px 20px;
+    }
+    .podcast .podcast-head h4 {
+    font-size: 20px;
+    }
+    .podcast .podcast-head p {
+    width: auto;
+    }
+    .podcast .podcast-menu {
+        width: auto;
+        margin-top: 20px;
+    }
+    .podcast .podcast-listen {
+        height: auto;
+        margin-top: 50px;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .podcast .podcast-listen .image {
+        width: 100%;
+    }
+    .podcast .podcast-listen .text h2 {
+    font-size: 24px;
+    }
+    .podcast .podcast-listen .text p {
+    margin-top: 30px;
+    }
+    .podcast .podcast-body {
+        display: flex;
+        flex-direction: column;
+    }
+    .podcast .podcast-listen .play {
+        margin-top: 50px;
+    }
+}

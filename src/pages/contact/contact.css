@@ -1,0 +1,193 @@
+.contact {
+    background: #f2fffb;
+    font-family: "Roobert-Regular";
+}
+
+.contact .strategist {
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 50px;
+    padding: 100px 80px;
+}
+.contact .strategist > div {
+    flex: 1;
+}
+.contact .strategist .left-head h4 {
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 0;
+    color: #000c00;
+  }
+  .contact .strategist .left-head P {
+    color: rgba(0, 12, 0, 0.80);
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+  .contact .strategist .left-address {
+      color: rgba(0, 12, 0, 0.80);
+      margin-top: 40px;
+  }
+  .contact .strategist .left-address h5 {
+    font-size: 24px;
+    margin-bottom: 0;
+    font-weight: 400;
+  }
+  .contact .strategist .left-address ul {
+    padding: 0;
+    margin-top: 30px;
+  }
+  .contact .strategist .left-address ul li {
+    font-size: 15px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .contact .strategist .left-address ul li img {
+    width: 24px;
+    height: 24px;
+  }
+  .right-div {
+    display: flex;
+    justify-content: center;
+  }
+  .contact .strategist .right {
+    border-radius: 15px;
+        background: #FFF;
+        box-shadow: 0px 1px 5px 0px rgba(171, 171, 171, 0.25);
+        padding: 70px 50px;
+        width: 575px;
+  }
+  .contact .strategist .right .form-grp {
+    display: flex;
+    margin-bottom: 30px;
+}
+.contact .strategist .right .form-grp .input {
+    flex: 1;
+  }
+  .contact .strategist .right .form-grp .input input {
+    width: 225px;
+  }
+  .contact .strategist .right .input label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .contact .strategist .right .input input {
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 12, 0, 0.15);
+    padding: 0 20px;
+    width: 510px;
+  }
+  .contact .strategist .right .input input::placeholder {
+    color: rgba(0, 12, 0, 0.50);
+    padding: 15px 0;
+    font-family: "Roobert-Regular";
+  }
+  .contact .strategist .right .input input:focus, .contact .strategist .right .text-area textarea:focus {
+    outline: none;
+  }
+  .contact .strategist .right .checkboxs,.contact .strategist .right .text-area  {
+    margin-top: 30px;
+    font-size: 14px;
+  }
+  .contact .strategist .right .checkboxs p, .contact .strategist .right .text-area p {
+    margin-bottom: 10px;
+  }
+  .contact .strategist .right .checkboxs .checkbox {
+    gap: 10px;
+    justify-content: start;
+    margin-bottom: 15px;
+  }
+  .contact .strategist .right .checkboxs .checkbox label {
+    color: rgba(0, 12, 0, 0.50);;
+  }
+  .contact .strategist .right .checkboxs .checkbox input {
+    width: 24px;
+    height: 24px;
+    border-radius: 5px;
+border: 1px solid rgba(0, 12, 0, 0.15);
+  }
+  .contact .strategist .right .text-area textarea {
+    width: 470px;
+    height: 151px;
+    padding: 15px 20px;
+  }
+  .contact .strategist .right .text-area textarea::placeholder {
+    font-family: "Roobert-Regular";
+  }
+  .contact .strategist .right .text-area button {
+    border: none;
+    border-radius: 5px;
+    background-color: #009B66;
+    color: #fff;
+    padding: 15px 40px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.contact .strategist .right .text-area button:hover {
+    background-color: #0a6143;
+    
+}
+.move-right {
+    padding: 10px 80px 50px 350px;
+}
+.contact .testimonial div {
+  width: 100%;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .contact .strategist {
+        padding: 50px 10px;
+      }
+      .contact .strategist div {
+        width: 100%;
+    }
+      .contact .strategist .left-head h4 {
+        font-size: 24px;
+        margin-bottom: 0;
+      }
+      .contact .strategist .left-head P {
+        font-size: 14px;
+        margin-top: 0;
+      }
+      .contact .strategist .left-image {
+        width: 100%;
+      }
+      .contact .strategist .left-image img {
+        width: inherit;
+      }
+      .contact .strategist {
+        flex-direction: column;
+        align-items: center;
+      }
+      .contact .strategist .left-address h5 {
+        font-size: 24px;
+      }
+      .contact .strategist .left-address ul li {
+        margin-bottom: 20px;
+      } .contact .strategist .right {
+        width: 100%;
+        padding: 50px 20px;
+      }
+      .contact .strategist .right .input input {
+        width: 280px;
+      }
+      .contact .strategist .right .form-grp {
+        gap: 10px;
+      }
+      .contact .strategist .right .form-grp .input input {
+        width: 110px;
+      }
+      .contact .strategist .right .input label {
+        font-size: 14px;
+      }
+      .contact .strategist .right .checkboxs .checkbox label {
+        font-size: 14px;
+      }
+      .contact .strategist .right .text-area textarea {
+        width: 280px;
+      }
+}

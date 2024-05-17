@@ -1,0 +1,301 @@
+.career .career-head {
+    padding: 100px 80px;
+    background: #F2FFFB;
+}
+.career .career-head h4.head {
+    font-size: 36px;
+    width: 650px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.career .career-head p.career-text {
+    font-size: 18px;
+    width: 710px;
+    margin-bottom: 30px;
+}
+.pictures {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 100px;
+}
+.pictures .first, .pictures .second {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.pictures .one, .pictures .two {
+    width: inherit;
+}
+.pictures .one {
+    height: 400px;
+}
+.pictures .two {
+    height: 262px;
+    display: flex;
+    gap: 20px;
+}
+.pictures img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+.pictures .two .two-one, .pictures .two .two-two {
+    width: 287px;
+}
+.career .career-body .values {
+    background-color: #fff;
+    text-align: center;
+    color: #000c00;
+    padding: 100px 80px;
+}
+.career .career-body .values .values-head h2 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.career .career-body .values .values-body {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.career .career-body .values .value {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 338px;
+    gap: 20px;
+}
+.career .career-body .values .value .text h4 {
+    font-size: 24px;
+}
+.career .career-body .values .value .text p {
+    color: rgba(0, 12, 0, 0.80);
+    margin-top: 20px;
+}
+.career .career-body .hiring {
+    padding: 100px 80px;
+    background: #F2FFFB;
+}
+.career .career-body .hiring .hiring-head {
+    color: #000c00;
+}
+.career .career-body .hiring .hiring-head h3 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.career .career-body .hiring .hiring-head p {
+    width: 450px;
+}
+.career .career-body .hiring .hiring-body {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    height: 290px;
+}
+.career .career-body .hiring .hire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    gap: 20px;
+    text-align: center;
+    height: fit-content;
+}
+.career .career-body .hiring .hire:not(:first-of-type) {
+    margin-left: -60px;
+}
+.career .career-body .hiring .hire:not(:last-of-type) {
+    margin-right: -60px;
+}
+.career .career-body .hiring .hiring-body .hire.screening, .career .career-body .hiring .hiring-body .hire.assesment {
+    align-self: start;
+}
+.career .career-body .hiring .hiring-body .hire.interview, .career .career-body .hiring .hiring-body .hire.offer {
+    align-self: end;
+}
+.career .career-body .hiring .hire .text h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+.career .career-body .hiring .hire .text p {
+    color: rgba(0, 12, 0, 0.80);
+    margin-top: 20px;
+    font-size: 14px;
+}
+.curve {
+    margin-top: 30px;
+}
+.positions {
+    padding: 100px 80px;
+}
+.positions .positions-head h2 {
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+.positions .positions-body {
+    margin-top: 100px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.positions .positions-body .position {
+    border-radius: 10px;
+    border: 1px solid #009B66;
+    background: rgba(0, 155, 102, 0.05);
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.positions .positions-body .position .left h5 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000c00;
+}
+.positions .positions-body .position .left p {
+    color: rgba(0, 12, 0, 0.70);
+    margin-top: 30px;
+}
+.positions .positions-body .position .info {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+
+}
+.positions .positions-body .position .info span {
+    color: rgba(14, 19, 14, 0.7);
+    font-size: 14px;
+}
+.positions .positions-body .position .info span img {
+    vertical-align: middle;
+}
+.positions .positions-body .position .right {
+    display: flex;
+    align-items: center;
+}
+.career .career-body .testimonial {
+    margin-top: -200px;
+}
+
+@media screen and (max-width: 600px) {
+    .career .career-head {
+        padding: 50px 20px;
+    }
+    .career .career-head p.career-text {
+        font-size: 14px;
+        width: auto;
+    }
+    .career .career-head h4.head {
+        font-size: 24px;
+        width: auto;
+    }
+    .pictures {
+        overflow-x: scroll;
+        justify-content: start;
+    }
+    .pictures  .first, .pictures .second {
+        flex-shrink: 0;
+    }
+    .career .career-body .values {
+        padding: 50px 20px;
+    }
+    .career .career-body .values .values-body {
+        flex-direction: column;
+        justify-content: center;
+        gap: 100px;
+    }
+    .career .career-body .values .values-head h2 {
+        font-size: 24px;
+    }
+    .career .career-body .values .values-head p {
+        font-size: 14px;
+    }
+    .career .career-body .values .values-body {
+        margin-top: 50px;
+        justify-content: center;
+    }
+    .career .career-body .values .value .image {
+        width: 80px;
+        height: 80px;
+    }
+    .career .career-body .values .value .image img {
+        width: inherit;
+        height: inherit;
+        object-fit: cover;
+    }
+    .career .career-body .values .value .text h4 {
+        font-size: 20px;
+    }
+.career .career-body .hiring {
+    padding: 50px 20px;
+    }
+    .career .career-body .hiring .hiring-head h3 {
+        font-size: 24px;
+    }
+.career .career-body .hiring .hiring-head p {
+        width: auto;
+        font-size: 14px;
+    }
+    .career .career-body .hiring .hiring-body {
+        margin-top: 50px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+        height: auto;
+    }
+    .career .career-body .hiring .hire .text h4 {
+        font-size: 18px;
+    }
+    .career .career-body .hiring .hire:not(:first-of-type) {
+        margin-left: 0;
+    }
+    .career .career-body .hiring .hire:not(:last-of-type) {
+        margin-right: 0;
+    }
+    .career .career-body .hiring .hiring-body .hire.screening, .career .career-body .hiring .hiring-body .hire.assesment, .career .career-body .hiring .hiring-body .hire.interview, .career .career-body .hiring .hiring-body .hire.offer {
+        align-self: center;
+    }
+    .curve {
+        display: none;
+    }
+    .positions {
+        padding: 50px 20px;
+    }
+    .positions .positions-head h2 {
+        font-size: 24px;
+    }
+    .positions .positions-body {
+        margin-top: 50px;
+    }
+    .positions .positions-body .position {
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 30px;
+        padding: 30px 20px;
+        width: 100%;
+    }
+    .positions .positions-body .position .left h5 {
+        font-size: 18px;
+    }
+    .positions .positions-body .position .left p {
+        font-size: 14px;
+    }
+    .positions .positions-body .position .info span {
+        font-size: 12px;
+    }
+    .positions .positions-body .position .info {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .career .career-body .testimonial {
+        margin-top: -150px;
+    }
+}

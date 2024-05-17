@@ -1,0 +1,140 @@
+.solutions {
+    font-family: "Roobert-Regular";
+    background-color: #fff;
+    padding: 100px 80px;
+}
+.solutions h1 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 32px;
+    padding: 0 350px;
+    margin-bottom: 100px;
+}
+.solutions .solution-cards {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ gap: 100px;
+}
+.solutions .solution-cards .one, .solutions .solution-cards .two {
+    display: flex;
+    gap: 50px;
+    height: 650px;
+}
+.solutions .solution-cards .one .card.technology {
+    align-self: flex-end;
+}
+.solutions .solution-cards .two .card.team {
+    align-self: flex-end;
+}
+.solutions .solution-cards .card {
+    /* background-size: 100px; */
+    width: 590px;
+    height: 570px;
+    padding: 60px 40px;
+    border-radius: 10px;
+    background-image: url(../../images/line.png);
+}
+.solutions .solution-cards .one .card.business {
+    background-color: #009B660D;
+}
+.solutions .solution-cards .one .card.technology {
+    background-color: #00899B0D;
+}
+
+.solutions .solution-cards .two .card.product {
+    background-color: #8500EE0D;
+}
+
+.solutions .solution-cards .two .card.team {
+    background-color: #0086E70D;
+}
+
+
+.solutions .solution-cards .card .card-img {
+    margin-bottom: 40px;
+}
+.solutions .solution-cards .card .card-text h6{
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+.solutions .solution-cards .one .card.business .card-text h6 {
+    color: #009B66;
+}
+.solutions .solution-cards .one .card.technology .card-text h6 {
+    color: #00899B;
+}
+.solutions .solution-cards .two .card.product .card-text h6 {
+    color: #8500EE;
+}
+.solutions .solution-cards .two .card.team .card-text h6 {
+    color: #0086E7;
+}
+.solutions .solution-cards .card .card-text h4{
+    color: #000C00;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 1.24;
+    margin-bottom: 30px;
+    padding-right: 20px;
+}
+.solutions .solution-cards .card .card-text p {
+    color: rgba(0, 12, 0, 0.70);
+    padding-right: 23px;
+    line-height: 1.4;
+}
+@media screen and (max-width: 600px) { 
+    .solutions {
+        padding: 50px 20px;
+        background-color: #F2FFFB;;
+    }
+    .solutions h1 {
+        padding: 0 20px;
+        font-size: 24px;
+    }
+    .solutions .solution-cards {
+        gap: 25px;
+        padding: 0 20px;
+    }
+    .solutions .solution-cards .one, .solutions .solution-cards .two {
+        flex-direction: column;
+        gap: 25px;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .solutions .solution-cards .one .card.technology {
+        align-self: center;
+    }
+    .solutions .solution-cards .two .card.team {
+        align-self: center;
+    }
+    .solutions .solution-cards .card {
+        background-image: url(../../images/business-background.png);
+        background-size: 300px;
+        width: 100%;
+        height: auto;
+        padding: 40px 20px;
+    }
+    .solutions .solution-cards .card .card-img {
+        margin-bottom: 20px;
+    }
+    .solutions .solution-cards .card .card-img img {
+        width: 65px;
+        height: 65px;
+    }
+    .solutions .solution-cards .card .card-text h6 {
+        font-size: 16px;
+    }
+    .solutions .solution-cards .card .card-text h4 {
+        font-size: 20px;
+        padding: 0;
+    }
+    .solutions .solution-cards .card .card-text p {
+        font-size: 14px;
+        padding: 0;
+    }
+}

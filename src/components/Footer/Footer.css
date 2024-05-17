@@ -1,0 +1,133 @@
+.footer {
+  background-color: #000c00;
+  font-family: "Roobert-Regular";
+  color: #fff;
+  padding: 100px 50px;
+  height: auto;
+  position: relative;
+}
+.footer .halfLeft, .footer .halfRight {
+  position: absolute;
+  height: 320px;
+  width: 220;
+}
+.footer .halfLeft {
+  left: 0;
+  top: 130px;
+}
+.footer .halfRight {
+  right: 0;
+  top: 50px;
+}
+.footer .footer-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-bottom: 100px;
+}
+.footer .footer-top .footer-logo {
+  flex: 1;
+}
+.footer .footer-top .footer-text {
+  flex: 3;
+}
+.footer .footer-top .footer-logo > * {
+  scale: 1.5;
+}
+.footer .footer-top .footer-text {
+  display: flex;
+  justify-content: space-around;
+}
+.footer .footer-top div:not(:first-of-type) h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+.footer .footer-top div:not(:first-of-type) ul {
+  padding: 0;
+}
+.footer .footer-top div:not(:first-of-type) ul li:not(:last-of-type) {
+  margin-bottom: 25px;
+}
+.footer .footer-top div:not(:first-of-type) ul li {
+  color: rgba(255, 255, 255, 0.80);
+  font-size: 14px;
+}
+.footer .footer-top div:not(:first-of-type) ul li img {
+  vertical-align: middle;
+  margin-right: 15px;
+}
+.footer .line {
+  height: .1px;
+  background-color: rgba(255, 255, 255, 0.30);
+  margin: 0 100px;
+}
+.footer .footer-bottom {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+.footer .footer-bottom .copyright {
+  text-align: center;
+}
+.footer .footer-bottom .socials {
+  gap: 20px;
+ }
+ .footer .footer-bottom .socials > * {
+  width: 35px;
+  height: 35px;
+  background-color: #ccc;
+  border-radius: 50%;
+  color: #000;
+  font-size: 20px;
+ }
+
+
+ @media screen and (max-width: 600px) {
+  .footer {
+    padding: 50px 10px;
+    height: auto;
+  }
+  .footer .footer-top {
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding: 0 20px;
+    gap: 20px;
+  }
+  .footer .footer-top .footer-text {
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 40px
+  }
+  .footer .footer-top .footer-logo > * {
+    scale: 1.2;
+  }
+  .footer .footer-top div:not(:first-of-type) h3 {
+    font-size: 14px;
+  }
+  .footer .footer-top div:not(:first-of-type) ul li {
+    font-size: 12px;
+  }
+  .footer .footer-top .footer-text .company {
+    flex: 1;
+  }
+  .footer .footer-top .footer-text .information {
+    flex: 2;
+  }
+  .footer .line {
+    margin: 0 20px;
+  }
+  .footer .footer-bottom {
+    flex-direction: column;
+    padding: 0 20px;
+    gap: 50px;
+  }
+  .footer .footer-bottom .copyright {
+    font-size: 12px;
+  }
+  .footer .halfLeft, .footer .halfRight {
+    display: none;
+  }
+ }

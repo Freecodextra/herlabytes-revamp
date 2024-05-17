@@ -1,0 +1,92 @@
+.hero {
+    text-align: center;
+    background-color: #000C00;
+    font-family: "Roobert-Regular";
+    color: #fff;
+    height: 580px;
+    flex-direction: column;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 200;
+    width: 60%;
+    line-height: 1.4;
+}
+.hero p {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    width: 60%;
+    margin-top: 50px;
+    line-height: 1.6;
+}
+.hero button {
+    border-radius: 5px;
+    background-color: #009B66;
+    padding: 15px 50px;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    margin-top: 40px;
+}
+.hero .image {
+    position: absolute;
+}
+.hero .image.rect1, .hero .image.circle1 {
+    top: 120px;
+}
+.hero .image.rect2, .hero .image.circle2 {
+    bottom: 290px;
+}
+.hero .image.rect1 {
+    left: 270px;
+}
+.hero .image.circle1 {
+    right: 270px;
+}
+.hero .image.circle2 {
+    left: 150px;
+}
+.hero .image.rect2 {
+    right: 150px;
+}
+.hero .image.line {
+    bottom: 210px;
+    right: 480px;
+}
+@media screen and (max-width: 600px) {
+    .hero h1 {
+        font-size: 26px;
+        width: 90%;
+    }
+    .hero p {
+        font-size: 14px;
+        width: 88%;
+    }
+    .hero .image {
+        scale: .8;
+    }
+    .hero .image.rect1, .hero .image.circle1 {
+        top: 100px;
+    } 
+    .hero .image.circle1 {
+        right: 10px;
+    }
+    .hero .image.rect1 {
+        left: 40px;
+    }
+    .hero .image.rect2 {
+        right: 10px;
+        bottom: 530px;
+    }
+    .hero .image.circle2 {
+        left: 10px;
+        bottom: 370px;
+    }
+    .hero .image.line {
+        right: 8px;
+        bottom: 360px;
+        transform: rotate(-25deg);
+        width: 27%;
+    }
+  }

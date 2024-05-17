@@ -1,0 +1,49 @@
+.not-found {
+    background-color: #000c00;
+    font-family: "Roobert-Regular";
+    color: #fff;
+    padding: 100px 50px;
+    flex-direction: column;
+}
+.not-found .text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.not-found .text h3 {
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.not-found .text p {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 18px;
+}
+.not-found .button button {
+    border: none;
+    border-radius: 5px;
+    background-color: #009B66;
+    color: #fff;
+    padding: 15px 40px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .not-found {
+        padding: 100px 20px;
+    }
+    .not-found .image {
+        width: 100%;
+    }
+    .not-found .image img {
+        width: inherit;
+    }
+    .not-found .text h3 {
+        font-size: 24px;
+    }
+    .not-found .text p {
+        font-size: 16px;
+    }
+    .not-found .button button {
+        padding: 10px 30px;
+    }
+}
